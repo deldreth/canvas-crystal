@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'bundler/setup'
 
 get '/' do
 	erb :icon	
